@@ -1,0 +1,378 @@
+<!doctype html>
+<html class="is-menu-fixed" xmlns="http://www.w3.org/1999/html">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Editor - Responsive HTML5 Template">
+    <meta name="keywords" content="editor, blog, html5, portfolio">
+    <meta name="author" content="Pixelwars">
+
+    <!-- FAV and TOUCH ICONS -->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
+
+    <title>Editor - a wordpress blog</title>
+
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic,400italic' rel='stylesheet'
+          type='text/css'>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="js/jquery.uniform/uniform.default.css">
+    <link rel="stylesheet" type="text/css" href="js/jquery.magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="js/jquery.fluidbox/fluidbox.css">
+    <link rel="stylesheet" type="text/css" href="js/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="js/selection-sharer/selection-sharer.css">
+    <link rel="stylesheet" type="text/css" href="js/responsive-image-gallery/elastislide.css"/>
+    <link rel="stylesheet" type="text/css" href="css/align.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/768.css">
+    <link rel="stylesheet" type="text/css" href="css/992.css">
+
+    <!-- INITIAL SCRIPTS -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/modernizr.min.js"></script>
+</head>
+
+<body onload="hideLoginForm()">
+
+<!-- page -->
+<div id="page" class="hfeed site">
+
+    <!-- header -->
+    <header id="masthead" class="site-header" role="banner">
+
+        <!-- site-navigation -->
+        <nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+
+            <a class="menu-toggle"><span class="lines"></span></a>
+
+            <!-- nav-menu -->
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a>
+                        <!-- level 2 -->
+
+                        <!-- level 2 -->
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About Me</a>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!-- nav-menu -->
+
+<!--            <a class="search-toggle toggle-link"></a>-->
+
+            <!-- search-container -->
+            <div class="search-container">
+
+                <div class="search-box">
+                    <form role="search" method="get" class="search-form" action="#">
+                        <label>Search for
+                            <input type="search" id="search-field" placeholder="type and hit enter" name="s">
+                        </label>
+                        <input type="submit" class="search-submit" value="Search">
+                    </form>
+                </div>
+
+            </div>
+            <!-- search-container -->
+
+            <!-- social-container -->
+            <div class="social-container">
+
+                <ul class="social">
+                    <li><a class="facebook" href="#"></a></li>
+                    <li><a class="twitter" href="#"></a></li>
+                    <li><a class="vine" href="#"></a></li>
+                    <li><a class="dribbble" href="#"></a></li>
+                    <li><a class="instagram" href="#"></a></li>
+                </ul>
+            </div>
+            <!-- social-container -->
+
+        </nav>
+        <!-- site-navigation -->
+
+<!--        &lt;!&ndash; site-title &ndash;&gt;-->
+<!--        <h1 class="site-title">-->
+<!--            <a href="index.html" rel="home">-->
+<!--                <img src="images/site/logo.png" alt="logo">-->
+<!--                &lt;!&ndash;EDITOR&ndash;&gt;-->
+<!--            </a>-->
+<!--        </h1>-->
+<!--        &lt;!&ndash; site-title &ndash;&gt;-->
+
+
+        <!--<h1 class="site-title">
+            <a href="../index.html" rel="home">
+                EDITOR
+            </a>
+        </h1>
+        <p class="site-description">just another minimalist theme.</p>-->
+
+
+    </header>
+    <!-- header -->
+
+
+    <!-- site-main -->
+    <div id="main" class="site-main" oninput="hideError()">
+
+
+        <!-- primary -->
+        <div id="primary" class="content-area">
+
+
+            <!-- site-content -->
+            <div id="content" class="site-content" role="main">
+                <div class="layout-fixed" id="dangKy-div"> <!-- .hentry -->
+
+                    <article class="hentry page">
+
+                        <!-- .entry-header -->
+                        <header class="entry-header">
+                            <h1 class="entry-title">Register</h1>
+                        </header>
+
+                        <!-- .entry-content -->
+                        <div class="entry-content" style="margin-left: 220px">
+
+                            <form id="dangKy-form">
+
+                                <p>
+                                    <label for="username">Username *</label>
+                                    <input class="inp-form" type="text" name="your-name" id="username"
+                                           required> <br>
+                                    <span style="color: red; font-size: 15px" id="userExitsErr" class="errorText"></span>
+                                </p>
+
+                                <p>
+                                    <label for="email">Email *</label>
+                                    <input class="inp-form" type="email" name="your-email" id="email"
+                                           required> <br>
+                                    <span style="color: red; font-size: 15px" id="emailValidEr" class="errorText"></span>
+                                </p>
+
+                                <p>
+                                    <label for="password">Password *</label>
+                                    <input class="inp-form" type="password" name="subject" id="password"
+                                           required> <br>
+                                    <span style="color: red; font-size: 15px" id="passErr" class="errorText"></span>
+                                </p>
+
+                                <p>
+                                    <label for="rePass">Re-Password *</label>
+                                    <input class="inp-form error-check" type="password" name="subject" id="rePass"
+                                           required> <br>
+                                    <span style="color: red; font-size: 15px" id="wrongRePassErr" class="errorText"></span>
+
+                                </p>
+                                <p>
+                                    <a href="" onclick="showLoginForm()">Already have an Account? <br> Click here to Login.</a>
+                                </p>
+
+                                <p>
+                                    <button style="background-color: transparent;" type="button"
+                                            onclick="registerUser()">Submit
+                                    </button>
+                                </p>
+
+                            </form>
+                        </div>
+                        <!-- .entry-content -->
+
+                    </article>
+                    <!-- .hentry -->
+
+
+                </div>
+            </div>
+
+            <div class="layout-fixed" id="dangNhap-div"> <!-- .hentry -->
+                <article class="hentry page">
+
+                    <!-- .entry-header -->
+                    <header class="entry-header">
+                        <h1 class="entry-title">Login</h1>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <!-- .entry-content -->
+                    <div class="entry-content" style="margin-left: 220px">
+                        <form id="dangNhap-form">
+                            <p>
+                                <label for="login-username">Username *</label>
+                                <input class="inp-form" type="text" name="your-name" id="login-username"
+                                       required> <br>
+                                <span id="checkUsernameLogin" style="color: red; font-size: 15px" class="errorText"></span>
+
+                            </p>
+                            <p>
+                                <label for="login-password">Password *</label>
+                                <input class="inp-form" type="password" name="subject" id="login-password"
+                                       required> <br>
+                                <span id="checkPassLogin" style="color: red; font-size: 15px" class="errorText"></span>
+
+                            </p>
+                            <p>
+                                <a href="" onclick="showRegisterForm()">Dont't have an Account yet? <br> Click here to Sign Up.</a>
+                                <br>
+                                <br>
+                                <a href="" onclick="forgotForm()"><u>Forgot password</u></a>
+                            </p>
+
+                            <p>
+                                <button style="background-color: transparent;" type="button"
+                                        onclick="loginUser()">Login
+                                </button>
+                            </p>
+
+                        </form>
+                    </div>
+                    <!-- .entry-content -->
+
+
+                </article>
+                <!-- .hentry -->
+
+            </div>
+
+            <div class="layout-fixed" id="forgotpass-div"> <!-- .hentry -->
+                <article class="hentry page">
+
+                    <!-- .entry-header -->
+                    <header class="entry-header">
+                        <h1 class="entry-title">Forgot password</h1>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <!-- .entry-content -->
+                    <div class="entry-content" style="margin-left: 220px">
+                        <form id="forgotpass-form">
+                            <p>
+                                <label for="forgot-username">Username *</label>
+                                <input class="inp-form" type="text" name="your-name" id="forgot-username"
+                                       required> <br>
+                                <span id="checkUsernameForgot" class="errorText" style="color: red; font-size: 15px"></span>
+                            </p>
+                            <p>
+                                <label  for="forgot-email">Email *</label>
+                                <input class="inp-form" type="text" name="subject" id="forgot-email"
+                                       required> <br>
+                                <span id="checkEmailForgot" class="errorText" style="color: red; font-size: 15px"></span>
+
+                            </p>
+
+                            <p>
+                                <a href="" onclick="showLoginForm()">Back to login</a>
+                            </p>
+                            <p>
+                                <button style="background-color: transparent;" type="button"
+                                        onclick="forgotPass()">Submit
+                                </button>
+                            </p>
+                        </form>
+                    </div>
+                    <!-- .entry-content -->
+
+                </article>
+                <!-- .hentry -->
+
+
+            </div>
+
+            <div class="layout-fixed" id="change-div"> <!-- .hentry -->
+                <article class="hentry page">
+
+                    <!-- .entry-header -->
+                    <header class="entry-header">
+                        <h1 class="entry-title">Change password</h1>
+                    </header>
+                    <!-- .entry-header -->
+
+                    <!-- .entry-content -->
+                    <div class="entry-content" style="margin-left: 220px">
+                        <form id="changepass-form">
+                            <p>
+                                <label for="changepass">Your new pass *</label>
+                                <input class="inp-form" type="password" name="your-name" id="changepass"
+                                       required> <br>
+                                <span class="errorText" style="color: red; font-size: 15px"></span>
+
+                            </p>
+                            <p>
+                                <label for="repass-change">Re-password *</label>
+                                <input class="inp-form" type="password" name="subject" id="repass-change"
+                                       required> <br>
+                                <span  id="checkChangePass" class="errorText" style="color: red; font-size: 15px"></span>
+
+                            </p>
+                            <p>
+                                <button style="background-color: transparent;" type="button"
+                                        onclick="changePass()">Submit
+                                </button>
+                                <button style="background-color: transparent;" type="button"
+                                        onclick="showLoginForm()">Back to login
+                                </button>
+                            </p>
+
+                        </form>
+                    </div>
+                    <!-- .entry-content -->
+
+                </article>
+                <!-- .hentry -->
+
+
+            </div>
+
+        </div>
+    </div> <!-- layout-fixed -->
+    <!-- layout-fixed -->
+</div>
+<!-- site-content -->
+
+</div>
+<!-- primary -->
+
+
+</div>
+<!-- site-main -->
+
+
+</div>
+<!-- page -->
+
+
+<script src="js/fastclick.js"></script>
+<script src="js/jquery.fitvids.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.uniform/jquery.uniform.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.fluidbox/jquery.fluidbox.min.js"></script>
+<script src="js/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/readingTime.js"></script>
+<script src="js/selection-sharer/selection-sharer.js"></script>
+<script src="js/responsive-image-gallery/r-gallery.js"></script>
+<script src="js/main.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="./js-blog/register.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.6.16/dist/sweetalert2.all.min.js"></script>
+
+</body>
+</html>

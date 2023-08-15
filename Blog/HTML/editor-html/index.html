@@ -1,0 +1,543 @@
+<!doctype html>
+<html class="is-menu-fixed" lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Editor - Responsive HTML5 Template">
+    <meta name="keywords" content="editor, blog, html5, portfolio">
+    <meta name="author" content="ZLOG">
+
+<!--     FAV and TOUCH ICONS -->
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="images/ico/apple-touch-icon.png"/>
+
+    <title>ZLOGS - a wordpress blog</title>
+
+    <!-- FONTS -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300'
+          rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,700italic,400italic' rel='stylesheet'
+          type='text/css'>
+
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts/fontello/css/fontello.css">
+    <link rel="stylesheet" type="text/css" href="js/jquery.uniform/uniform.default.css">
+    <link rel="stylesheet" type="text/css" href="js/jquery.magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="js/jquery.fluidbox/fluidbox.css">
+    <link rel="stylesheet" type="text/css" href="js/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="js/selection-sharer/selection-sharer.css">
+    <link rel="stylesheet" type="text/css" href="js/responsive-image-gallery/elastislide.css"/>
+    <link rel="stylesheet" type="text/css" href="css/align.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/768.css">
+    <link rel="stylesheet" type="text/css" href="css/992.css">
+
+    <!-- INITIAL SCRIPTS -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/modernizr.min.js"></script>
+    <script src="js-blog/index.js"></script>
+</head>
+
+<body>
+
+<!-- page -->
+<div id="page" class="hfeed site">
+
+    <!-- header -->
+    <header id="masthead" class="site-header" role="banner">
+
+        <!-- site-navigation -->
+        <nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
+
+            <a class="menu-toggle"><span class="lines"></span></a>
+
+            <!-- nav-menu -->
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li id="checkLogin">
+                    </li>
+
+                </ul>
+            </div>
+            <!-- nav-menu -->
+
+
+
+            <!-- search-container -->
+            <div class="search-container">
+
+                <div class="search-box">
+                        <label>Search for
+                            <input type="search" onkeydown="searchBlogss()" id="search-field" placeholder="type and hit enter" name="s">
+                        </label>
+                </div>
+
+            </div>
+            <!-- search-container -->
+
+            <a class="search-toggle toggle-link"></a>
+
+            <!-- social-container -->
+            <div class="social-container">
+
+                <ul class="social">
+                    <li><a class="facebook" href="#"></a></li>
+                    <li><a class="twitter" href="#"></a></li>
+                    <li><a class="vine" href="#"></a></li>
+                    <li><a class="dribbble" href="#"></a></li>
+                    <li><a class="instagram" href="#"></a></li>
+                </ul>
+
+
+            </div>
+            <!-- social-container -->
+
+        </nav>
+        <!-- site-navigation -->
+
+        <!-- site-title -->
+        <h1 class="site-title">
+            <a href="index.html" rel="home">
+                <img src="images/site/logo.png" alt="logo">
+                <!--EDITOR-->
+            </a>
+        </h1>
+        <!-- site-title -->
+
+    </header>
+    <!-- header -->
+
+
+    <!-- site-main -->
+    <div id="main" class="site-main homePage"> <!-- post-slider -->
+        <div class="post-slider owl-carousel" data-items="3" data-loop="true" data-dots="false"
+             data-nav="true" data-nav-prev-text="prev" data-nav-next-text="next">
+
+            <!-- post -->
+            <div class="post-thumbnail" style="background-image:url(images/blog/01.jpg)">
+
+                <!-- .entry-header -->
+                <header class="entry-header">
+
+                    <!-- .entry-meta -->
+                    <div class="entry-meta">
+                            <span class="cat-links">
+                                <a href="#" rel="category tag">TRAVEL</a>
+                            </span>
+                    </div>
+                    <!-- .entry-meta -->
+
+                    <!-- .entry-title -->
+                    <h1 class="entry-title"><a href="blog-single.html">There's always light at the end of the tunnel</a>
+                    </h1>
+                </header>
+                <!-- .entry-header -->
+
+            </div>
+
+            <!-- post -->
+            <div class="post-thumbnail" style="background-image:url(images/blog/02.jpg)">
+
+                <!-- .entry-header -->
+                <header class="entry-header">
+
+                    <!-- .entry-meta -->
+                    <div class="entry-meta">
+                            <span class="cat-links">
+                                <a href="#" rel="category tag">Life</a>
+                            </span>
+                    </div>
+                    <!-- .entry-meta -->
+
+                    <!-- .entry-title -->
+                    <h1 class="entry-title"><a href="blog-single.html">The Life of Stuff</a></h1>
+                </header>
+                <!-- .entry-header -->
+
+            </div>
+            <!-- post -->
+
+
+            <!-- post -->
+            <div class="post-thumbnail" style="background-image:url(images/blog/03.jpg)">
+
+                <!-- .entry-header -->
+                <header class="entry-header">
+
+                    <!-- .entry-meta -->
+                    <div class="entry-meta">
+                            <span class="cat-links">
+                                <a href="#" rel="category tag">Nature</a>
+                            </span>
+                    </div>
+                    <!-- .entry-meta -->
+
+                    <!-- .entry-title -->
+                    <h1 class="entry-title"><a href="blog-single.html">Cuckoo Events</a></h1>
+                </header>
+                <!-- .entry-header -->
+
+            </div>
+            <!-- post -->
+
+            <!-- post -->
+            <div class="post-thumbnail" style="background-image:url(images/blog/04.jpg)">
+
+                <!-- .entry-header -->
+                <header class="entry-header">
+
+                    <!-- .entry-meta -->
+                    <div class="entry-meta">
+                            <span class="cat-links">
+                                <a href="#" rel="category tag">Life</a>
+                            </span>
+                    </div>
+                    <!-- .entry-meta -->
+
+                    <!-- .entry-title -->
+                    <h1 class="entry-title"><a href="blog-single.html">Stay Calm And Surf</a></h1>
+                </header>
+                <!-- .entry-header -->
+
+            </div>
+            <!-- post -->
+
+            <!-- post -->
+            <div class="post-thumbnail" style="background-image:url(images/blog/05.jpg)">
+
+                <!-- .entry-header -->
+                <header class="entry-header">
+
+                    <!-- .entry-meta -->
+                    <div class="entry-meta">
+                            <span class="cat-links">
+                                <a href="#" rel="category tag">Fashion</a>
+                            </span>
+                    </div>
+                    <!-- .entry-meta -->
+
+                    <!-- .entry-title -->
+                    <h1 class="entry-title"><a href="blog-single.html">Becoming a Dragonfly</a></h1>
+                </header>
+                <!-- .entry-header -->
+
+            </div>
+            <!-- post -->
+
+        </div>
+        <!-- post-slider -->
+
+
+        <!-- layout-fixed -->
+        <div class="layout-medium">
+
+            <!-- primary -->
+            <div id="primary" class="content-area with-sidebar">
+
+                <!-- site-content -->
+                <div id="content" class="site-content" role="main"> <!-- blog-regular -->
+                    <div class="blog-regular">
+                        <div id="alerttt"></div>
+                        <div id="data-table"></div>
+                        <div id="data-search-table"></div>
+
+                        <!-- post nav -->
+                        <nav class="navigation" role="navigation">
+                            <div class="nav-previous" id="getMorePosts"></div>
+                            <!--                            <div class="nav-next"><a href="#">Newer posts <span class="meta-nav">→</span></a></div>-->
+                        </nav>
+                        <!-- post nav -->
+
+                    </div>
+                    <!-- blog-regular -->
+
+
+                </div>
+                <!-- site-content -->
+
+            </div>
+            <!-- primary -->
+
+
+            <!-- #secondary -->
+            <div id="secondary" class="widget-area sidebar" role="complementary">
+
+                <!-- widget : text -->
+                <aside class="widget widget_text">
+                    <h3 class="widget-title">About Us</h3>
+                    <div class="textwidget">
+                        <img src="images/site/about-small.jpg" alt="avatar">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                            Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.
+                            "</p>
+                    </div>
+                </aside>
+                <!-- widget : text -->
+
+                <!-- widget : tag_cloud -->
+                <aside class="widget widget_tag_cloud">
+                    <h3 class="widget-title">Tags</h3>
+                    <div class="tagcloud" id="tagCloudSideBar"></div>
+                </aside>
+                <!-- widget : tag_cloud -->
+
+
+
+                <!-- widget : text -->
+                <aside class="widget widget_text">
+                    <h3 class="widget-title">Follow Us</h3>
+                    <div class="textwidget" id="socialGroup">
+                        <ul class="social">
+                            <li><a class="facebook" href="#"></a></li>
+                            <li><a class="twitter" href="#"></a></li>
+                            <li><a class="vine" href="#"></a></li>
+                            <li><a class="dribbble" href="#"></a></li>
+                            <li><a class="instagram" href="#"></a></li>
+                        </ul>
+                    </div>
+                </aside>
+                <!-- widget : text -->
+
+
+
+
+                <!-- widget : search -->
+                <aside class="widget widget_search">
+                    <h3 class="widget-title">Search</h3>
+<!--                    <form role="search" class="search-form" >-->
+                        <label>
+                            <span class="screen-reader-text">Search for:</span>
+                            <input type="search" class="search-field"
+                                   title="Enter Keyword" id="getKeywordToSearch" onkeydown="searchBlogs()">
+                        </label>
+<!--                    </form>-->
+                </aside>
+                <!-- widget : search -->
+
+                <!-- widget : recent-posts -->
+                <aside class="widget widget_recent_entries">
+                    <h3 class="widget-title">Latest Posts</h3>
+                    <ul class="recentPostSmellCode">
+                    </ul>
+                </aside>
+                <!-- widget : recent-posts -->
+
+                <!-- widget : calendar -->
+                <aside id="calendar-2" class="widget widget_calendar">
+                    <h3 class="widget-title">Calendar</h3>
+                    <div id="calendar_wrap">
+                        <table id="wp-calendar">
+                            <caption>
+                                January 2023
+                            </caption>
+                            <thead>
+                            <tr>
+                                <th scope="col" title="Monday">M</th>
+                                <th scope="col" title="Tuesday">T</th>
+                                <th scope="col" title="Wednesday">W</th>
+                                <th scope="col" title="Thursday">T</th>
+                                <th scope="col" title="Friday">F</th>
+                                <th scope="col" title="Saturday">S</th>
+
+                                <th scope="col" title="Sunday">S</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                <td colspan="1" class="pad">&nbsp;</td>
+                                <td>1</td>
+                                <td>2</td>
+                                <td>3</td>
+                                <td>4</td>
+                                <td>5</td>
+                                <td>6</td>
+                            </tr>
+                            <tr>
+                                <td>7</td>
+                                <td>8</td>
+                                <td>9</td>
+                                <td>10</td>
+                                <td><a title="test">11</a></td>
+                                <td>12</td>
+                                <td>13</td>
+                            </tr>
+                            <tr>
+                                <td>14</td>
+                                <td>15</td>
+                                <td>16</td>
+                                <td>17</td>
+                                <td>18</td>
+                                <td>19</td>
+                                <td>20</td>
+                            </tr>
+                            <tr>
+                                <td>21</td>
+                                <td>22</td>
+                                <td>23</td>
+                                <td>24</td>
+                                <td>25</td>
+                                <td>26</td>
+                                <td>27</td>
+                            </tr>
+                            <tr>
+                                <td>28</td>
+                                <td>29</td>
+                                <td>30</td>
+                                <td>31</td>
+                                <td class="pad" colspan="3">&nbsp;</td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </aside>
+                <!-- widget : calendar -->
+
+                <!-- widget : text -->
+                <aside class="widget widget_text">
+                    <h3 class="widget-title">Facebook</h3>
+                    <iframe src="http://www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com/codegym.vn/&amp;width&amp;height=258&amp;colorscheme=light&amp;show_faces=true&amp;header=false&amp;stream=false&amp;show_border=false"
+                            scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:258px;"
+                            allowTransparency="true"></iframe>
+                </aside>
+                <!-- widget : text -->
+
+            </div>
+            <!-- #secondary -->
+
+
+        </div>
+        <!-- layout-medium -->
+
+    </div>
+    <!-- site-main -->
+
+
+    <!-- site-footer -->
+    <footer id="colophon" class="site-footer" role="contentinfo">
+
+        <!-- layout-medium -->
+        <div class="layout-medium">
+
+            <!-- footer-social -->
+            <div class="footer-social">
+                <ul class="social">
+                    <li><a class="facebook" href="#"></a></li>
+                    <li><a class="twitter" href="#"></a></li>
+                    <li><a class="google-plus" href="#"></a></li>
+                    <li><a class="dribbble" href="#"></a></li>
+                    <li><a class="instagram" href="#"></a></li>
+                    <li><a class="vine" href="#"></a></li>
+                </ul>
+
+            </div>
+            <!-- footer-social -->
+
+            <!-- footer-sidebar -->
+            <div class="footer-sidebar widget-area" role="complementary">
+
+                <!-- widget -->
+                <aside class="widget widget_text">
+                    <h3 class="widget-title">About Us</h3>
+                    <div class="textwidget">
+                        <img src="images/site/about-small.jpg" alt="avatar">
+                        <p>We are Hung, Son, Tung from Group One, C0822I1 Code Gym My Dinh.</p>
+                    </div>
+                </aside>
+                <!-- widget -->
+
+                <!-- widget -->
+                <aside class="widget widget_tag_cloud">
+                    <h3 class="widget-title">Tags</h3>
+                    <div class="tagcloud" id="tagCloudFooter"></div>
+                    <div class="tagcloud"><a href="#socialGroup">More</a>
+                    </div>
+                </aside>
+                <!-- widget -->
+
+                <!-- widget -->
+                <aside class="widget widget_recent_entries">
+                    <h3 class="widget-title">Latest Post</h3>
+                    <ul class="recentPostSmellCode">
+                    </ul>
+                </aside>
+                <!-- widget -->
+
+                <!-- widget : newsletter -->
+                <aside class="widget eemail_widget">
+                    <h3 class="widget-title">Email newsletter</h3>
+                    <div>
+                        <div class="eemail_caption">Subscribe your email</div>
+                        <div class="eemail_msg">
+                            <span style="display:none" id="eemail_msg">Subscribed successfully.</span>
+                        </div>
+                        <div class="eemail_textbox">
+                            <input class="eemail_textbox_class" id="eemail_txt_email" placeholder="Enter email"
+                                   maxlength="150" type="text">
+                        </div>
+                        <div class="eemail_button">
+                            <input class="eemail_textbox_button" id="eemail_txt_Button" value="Submit" type="button">
+                        </div>
+                    </div>
+                </aside>
+                <!-- widget : newsletter -->
+
+
+            </div>
+            <!-- footer-sidebar -->
+
+
+        </div>
+        <!-- layout-medium -->
+
+
+        <!-- .site-info -->
+        <div class="site-info">
+
+            <!-- layout-medium -->
+            <div class="layout-medium">
+
+                <p>crafted with <i class="pw-icon-heart"></i> <em>by</em> ZLOGS</p>
+
+            </div>
+            <!-- layout-medium -->
+
+        </div>
+        <!-- .site-info -->
+
+
+    </footer>
+    <!-- site-footer -->
+
+
+</div>
+<!-- page -->
+
+
+<!--show Login/Register Page-->
+
+
+<script src="js/fastclick.js"></script>
+<script src="js/jquery.fitvids.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/jquery.uniform/jquery.uniform.min.js"></script>
+<script src="js/imagesloaded.pkgd.min.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/jquery.magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.fluidbox/jquery.fluidbox.min.js"></script>
+<script src="js/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/readingTime.js"></script>
+<script src="js/selection-sharer/selection-sharer.js"></script>
+<script src="js/responsive-image-gallery/r-gallery.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
